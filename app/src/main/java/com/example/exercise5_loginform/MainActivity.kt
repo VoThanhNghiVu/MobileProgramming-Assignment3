@@ -62,6 +62,7 @@ fun Loginform(modifier: Modifier) {
             label = "User Password",
             icon = Icons.Filled.Lock,
             contentDescription = "Lock icon",
+            isPassword = true
         )
         Button(
             onClick = {},
@@ -73,4 +74,5 @@ fun Loginform(modifier: Modifier) {
         }
     }
 }
+
 
